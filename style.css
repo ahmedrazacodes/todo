@@ -1,0 +1,72 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+#main{
+    background-color: rgb(241, 238, 238);
+    width: 40%;
+    height: auto;
+    min-height: 50%;
+    text-align: center;
+    border-radius: 10px;
+    align-content: center;
+    box-shadow: 0px 5px 15px black;
+}
+
+h1{
+    font-size: 3em;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 5px 10px rgb(190, 190, 190);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 30px;
+}
+
+h1:hover{
+    font-size: 3.5em;
+}
+
+#input{
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+/*     border-radius: 5px; */
+    border: none;
+    box-shadow: 0px 2px 10px black;
+    padding: 10px 10px;
+    font-size: 1.5em;
+}
+
+
+#addButton{
+    width: 10%;
+    background-color: rgb(240, 232, 232);
+    border: none;
+    box-shadow: 0px 2px 10px black;
+    font-size: 1.5em;
+    padding: 10px 10px;
+
+    /*     border-radius: 5px; */
+}
+
+#addButton:hover{
+    width: 10.2%;
+    background-color: rgb(206, 203, 203);
+    color: rgb(10, 238, 227);
+}
+
+
+ul{
+    font-size: 1.5em;
+    margin: 30px;
+}
